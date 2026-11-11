@@ -1,0 +1,74 @@
+{
+  "reference": "NASA / Fred Espenak, published UT rounded to minutes; discrepancies are not physical error bounds",
+  "modelChange": {
+    "events": 4953,
+    "changed": 3740,
+    "maxAbsoluteSeconds": 6
+  },
+  "periods": {
+    "2001-2026": {
+      "legacy": {
+        "count": 1287,
+        "maxAbsoluteSeconds": 40,
+        "meanAbsoluteSeconds": 15.632,
+        "rmsSeconds": 18.222,
+        "worstUtc": "2003-11-09T01:14:00.000Z"
+      },
+      "current": {
+        "count": 1287,
+        "maxAbsoluteSeconds": 40,
+        "meanAbsoluteSeconds": 15.601,
+        "rmsSeconds": 18.159,
+        "worstUtc": "2014-03-16T17:09:00.000Z"
+      }
+    },
+    "2026-2026": {
+      "legacy": {
+        "count": 50,
+        "maxAbsoluteSeconds": 36,
+        "meanAbsoluteSeconds": 15.96,
+        "rmsSeconds": 18.807,
+        "worstUtc": "2026-07-14T09:43:00.000Z"
+      },
+      "current": {
+        "count": 50,
+        "maxAbsoluteSeconds": 37,
+        "meanAbsoluteSeconds": 15.86,
+        "rmsSeconds": 18.764,
+        "worstUtc": "2026-07-14T09:43:00.000Z"
+      }
+    },
+    "2027-2100": {
+      "legacy": {
+        "count": 3661,
+        "maxAbsoluteSeconds": 144,
+        "meanAbsoluteSeconds": 48.703,
+        "rmsSeconds": 59.744,
+        "worstUtc": "2099-02-20T04:05:00.000Z"
+      },
+      "current": {
+        "count": 3661,
+        "maxAbsoluteSeconds": 142,
+        "meanAbsoluteSeconds": 48.95,
+        "rmsSeconds": 59.992,
+        "worstUtc": "2099-02-20T04:05:00.000Z"
+      }
+    },
+    "2001-2100": {
+      "legacy": {
+        "count": 4948,
+        "maxAbsoluteSeconds": 144,
+        "meanAbsoluteSeconds": 40.101,
+        "rmsSeconds": 52.223,
+        "worstUtc": "2099-02-20T04:05:00.000Z"
+      },
+      "current": {
+        "count": 4948,
+        "maxAbsoluteSeconds": 142,
+        "meanAbsoluteSeconds": 40.275,
+        "rmsSeconds": 52.428,
+        "worstUtc": "2099-02-20T04:05:00.000Z"
+      }
+    }
+  }
+}

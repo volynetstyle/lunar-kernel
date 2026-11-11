@@ -1,0 +1,25 @@
+{
+  "name": "lunar-calendar-kernel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/kernel.test.ts tests/table.test.ts tests/api.test.ts tests/server.test.ts tests/accuracy.test.ts",
+    "demo": "node --experimental-strip-types demo.ts",
+    "bench": "node --experimental-strip-types bench.ts",
+    "start": "node dist/server.js",
+    "start:dev": "node --experimental-strip-types server.ts",
+    "build": "node --experimental-strip-types scripts/build.ts",
+    "typecheck": "tsc",
+    "pack:data": "node --experimental-strip-types scripts/pack.ts",
+    "accuracy": "node --experimental-strip-types scripts/accuracy.ts",
+    "verify:dist": "node scripts/verify-dist.mjs"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  }
+}

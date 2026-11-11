@@ -1,0 +1,10 @@
+{
+  "source": "https://eclipse.gsfc.nasa.gov/phase/phases2001.html",
+  "author": "Fred Espenak / NASA GSFC",
+  "resolutionSeconds": 60,
+  "timeScale": "UT",
+  "firstPhase": 1,
+  "count": 4948,
+  "htmlSha256": "ceb16de952edaf9bf1f7c6d1daf13c7487632c3a5ad78808bd40120a76c9fbd8",
+  "dataSha256": "fa782b7929e1b8067014a136194d3a8aa2709512a861f9e2d41a9de8df5ec9dd"
+}
